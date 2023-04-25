@@ -1,0 +1,11 @@
+   0 mkdir -p /opt/test/nadia
+   1 cat readme.txt >> /opt/test/nadia/test.txt
+   2 cat /opt/test/nadia/test.txt
+   3 ps -ef | head -2 >> /opt/test/nadia/test.txt
+   4 cat /opt/test/nadia/test.txt
+   5 mkdir -p /tmp/test2/nadia2
+   6 mv /opt/test/nadia/test.txt /tmp/test2/nadia2/nem2.txt
+   7 mv /opt/test/nadia/test.txt /tmp/test2/nadia2/new2.txt
+   8 vi /tmp/test2/nadia2/nem2.txt
+   9 history
+  10 history > history.txt
