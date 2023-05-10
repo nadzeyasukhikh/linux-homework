@@ -1,0 +1,101 @@
+@font-face {
+  font-family: "Impact", sans-serif;
+  src: url(../fonts/impact.woff2);
+}
+html {
+  box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+.container {
+  max-width: 1220px;
+  padding: 0 10px;
+  margin: auto;
+}
+body {
+  font-family: "Roboto Condensed", sans-serif;
+  color: #040404;
+  font-size: 14px;
+  line-height: 1.2;
+  font-weight: 400;
+}
+
+.header {
+  padding-top: 25px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  background: linear-gradient(180deg, #d8d4ca 0%, rgba(217, 217, 217, 0) 100%);
+}
+.nav {
+  display: flex;
+  justify-content: space-between;
+}
+.menu-list {
+  display: flex;
+  gap: 0 40px;
+  padding-top: 25px;
+}
+
+.menu-left {
+  padding-left: 25px;
+}
+.menu-right {
+  padding-right: 80px;
+}
+.menu-link {
+  color: #363636;
+  font-size: 16px;
+}
+.promo {
+  background-image: url(../images/promo.gp.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  
+}
+.promo__inner {
+    display: flex;
+    flex-direction: column;
+  min-height: 100vh;
+  text-align: center;
+  padding-top: 100px;
+}
+.title {
+  font-family: "Impact", sans-serif;
+  font-weight: 400;
+  font-size: 76px;
+  letter-spacing: 0.08em;
+  margin-bottom: 10px;
+}
+.subtitle {
+  font-family: "Impact", sans-serif;
+  font-weight: 400;
+  font-size: 48px;
+  border-bottom: 1px solid #040404;
+  margin-bottom: 10px;
+  align-self: center;
+}
+.subtitle span {
+  display: block;
+  font-size: 34px;
+  color: #9f6b08;
+  padding: 10px 0;
+}
+.promo__text {
+    font-size: 16px;
+    color: #363636;
+    margin-bottom: 10px;
+}
+.promo__arrow {
+    margin-top: auto;
+    margin-bottom: 30px;
+    align-self: center;
+}
