@@ -1,0 +1,27 @@
+-bash: cd: opt/280323_morning/: No such file or directory
+[ec2-user@ip-172-31-33-20 ~]$ cd /opt/280323_morning/sukhikh
+[ec2-user@ip-172-31-33-20 sukhikh]$ touch myfirstbashscript.sh
+You have mail in /var/spool/mail/ec2-user
+[ec2-user@ip-172-31-33-20 sukhikh]$ ls -l
+total 0
+-rw-rw-r-- 1 ec2-user ec2-user 0 May 11 15:53 myfirstbashscript.sh
+drwxrwxr-x 2 ec2-user ec2-user 6 May 11 12:32 test
+[ec2-user@ip-172-31-33-20 sukhikh]$ chmod 744 myfirstbashscript.sh
+You have mail in /var/spool/mail/ec2-user
+[ec2-user@ip-172-31-33-20 sukhikh]$ ls -l
+total 0
+-rwxr--r-- 1 ec2-user ec2-user 0 May 11 15:53 myfirstbashscript.sh
+drwxrwxr-x 2 ec2-user ec2-user 6 May 11 12:32 test
+[ec2-user@ip-172-31-33-20 sukhikh]$ nano myfirstbashscript.sh
+You have mail in /var/spool/mail/ec2-user
+[ec2-user@ip-172-31-33-20 sukhikh]$ ./myfirstbashscript.sh
+Thu May 11 16:00:52 UTC 2023
+Heloo, NADIA!
+/opt/280323_morning/sukhikh
+162
+[ec2-user@ip-172-31-33-20 sukhikh]$ ls -l
+total 4
+-rwxr--r-- 1 ec2-user ec2-user 105 May 11 16:00 myfirstbashscript.sh
+drwxrwxr-x 2 ec2-user ec2-user   6 May 11 12:32 test
+You have mail in /var/spool/mail/ec2-user
+[ec2-user@ip-172-31-33-20 sukhikh]$
